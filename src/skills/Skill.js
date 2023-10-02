@@ -2,9 +2,9 @@ import { ProgressBar } from "@components/ProgressBar";
 
 export const Skill = (props) => {
 
-    const { children } = props;
+    const { passdata } = props;
 
-    const skills = children;
+    const skills = passdata;
 
     return (
         <div className="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2">

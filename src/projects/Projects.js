@@ -7,9 +7,9 @@ import { Tilt } from 'react-tilt';
 
 export const Projects = (props) => {
 
-    const { children } = props;
+    const { passdata } = props;
 
-    const imgArray = children;
+    const imgArray = passdata;
 
     return (
         <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-3xl mx-auto mt-24 md:grid-cols-2">

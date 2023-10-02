@@ -8,7 +8,7 @@ import { Projects } from "src/projects/Projects";
 import { Education } from "src/education/Education";
 import { Skill } from "src/skills/Skill";
 import { Reference } from "src/reference/Reference";
-import { Contact } from "src/contact/Contact";
+import { Contact} from "src/Contact/Contact";
 
 import {
     profile,
@@ -26,7 +26,7 @@ export const Dashboard = () => {
     return (
         <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
             {/* { Page Banner } */}
-            <HomeBanner children={profile} />
+            <HomeBanner passdata={profile} />
             {/* Components Container */}
             <SectionContainer className="components--container wrap wrap-px grid gap-8 sm:gap-24">
                 {/* Experience */}
@@ -38,7 +38,7 @@ export const Dashboard = () => {
                             <BadgeMessage>Experience</BadgeMessage>
                             <BadgeIcon icon="material-symbols:deployed-code-history-outline" />
                         </BadgeGroup>
-                        <Experience children={experiences} />
+                        <Experience passdata={experiences} />
                     </SectionContainer>
                 </MotionBTTContainer>
                 {/* Projects */}
@@ -53,7 +53,7 @@ export const Dashboard = () => {
                             <BadgeMessage>Projects</BadgeMessage>
                             <BadgeIcon icon="iconoir:developer" />
                         </BadgeGroup>
-                        <Projects children={projects} />
+                        <Projects passdata={projects} />
                     </SectionContainer>
                 </MotionBTTContainer>
                 {/* Education */}
@@ -68,7 +68,7 @@ export const Dashboard = () => {
                             <BadgeMessage>Education</BadgeMessage>
                             <BadgeIcon icon="cil:education" />
                         </BadgeGroup>
-                        <Education children={educations} />
+                        <Education passdata={educations} />
                     </SectionContainer>
                 </MotionBTTContainer>
                 {/* Skills */}
@@ -80,7 +80,7 @@ export const Dashboard = () => {
                             <BadgeMessage>Skills</BadgeMessage>
                             <BadgeIcon icon="ph:stack-simple-light" />
                         </BadgeGroup>
-                        <Skill children={skills} />
+                        <Skill passdata={skills} />
                     </SectionContainer>
                 </MotionBTTContainer>
                 <MotionBTTContainer
@@ -91,7 +91,7 @@ export const Dashboard = () => {
                             <BadgeMessage>References</BadgeMessage>
                             <BadgeIcon icon="carbon:recommend" />
                         </BadgeGroup>
-                        <Reference children={references} />
+                        <Reference passdata={references} />
                     </SectionContainer>
                 </MotionBTTContainer>
                 <MotionBTTContainer
@@ -102,7 +102,7 @@ export const Dashboard = () => {
                             <BadgeMessage>Contact Me</BadgeMessage>
                             <BadgeIcon icon="fluent-mdl2:edit-contact" />
                         </BadgeGroup>
-                        <Contact children={contact} />
+                        <Contact passdata={contact} />
                     </SectionContainer>
                 </MotionBTTContainer>
             </SectionContainer>

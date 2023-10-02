@@ -12,9 +12,9 @@ export const Layout = ({ children, className = "" }) => {
             className={`main relative overflow-hidden ${className && className
                 }`}
         >
-            <Header children={navigation} />
+            <Header passdata={navigation} />
             {children}
-            <Footer children={socialLinks} />
+            <Footer passdata={socialLinks} />
         </main>
     );
 };

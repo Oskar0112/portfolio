@@ -5,11 +5,11 @@ import toast from '@components/Contact/Toast';
 
 export const ContactForm = (props) => {
 
-  const {children} = props;
+  const { passdata } = props;
 
-  const ServiceId = children.ServiceId;
-  const TemplateId = children.TemplateId;
-  const PublicKey = children.PublicKey;
+  const ServiceId = passdata.ServiceId;
+  const TemplateId = passdata.TemplateId;
+  const PublicKey = passdata.PublicKey;
 
   const form = useRef();
 

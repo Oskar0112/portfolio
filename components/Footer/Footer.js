@@ -4,11 +4,11 @@ import { SocialLinks } from "@components/SocialLink";
 
 export const Footer = (props) => {
 
-    const { children } = props;
+    const { passdata } = props;
     
     const date = new Date();
     const year = date.getFullYear();
-    const socialLinks = children;
+    const socialLinks = passdata;
 
     return (
         <footer id="footer" className="bg-white">
@@ -27,7 +27,7 @@ export const Footer = (props) => {
                         </Link>
                     </div>
                     <div className="sm:w-[40%]">
-                        <SocialLinks children={socialLinks} />
+                        <SocialLinks passdata={socialLinks} />
                     </div>
                     <div className="sm:w-[20%]">
                         © {year} Oskar Molander.

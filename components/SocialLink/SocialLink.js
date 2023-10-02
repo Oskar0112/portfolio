@@ -4,23 +4,23 @@ import { faDiscord, faGithub, faLinkedin, faSkype } from '@fortawesome/free-bran
 
 export const SocialLinks = (props) => {
 
-    const { children } = props;
+    const { passdata } = props;
     
     return (
         <div className="h-[100px] bg-grayscale-950 flex justify-center items-center gap-3 p-6">
-            <a href={children.github} target="_blank">
+            <a href={passdata.github} target="_blank">
                 <FontAwesomeIcon
                     className="h-[30px] text-3xl text-grayscale-50 hover:text-sky-800 hover:scale-[1.1] transition-all duration-75"
                     icon={faGithub}
                 />
             </a>
-            <a href={children.skype} target="_blank">
+            <a href={passdata.skype} target="_blank">
                 <FontAwesomeIcon
                     className="h-[30px] text-3xl text-grayscale-50 hover:text-sky-800 hover:scale-[1.1] transition-all duration-75"
                     icon={faSkype}
                 />
             </a>
-            {/* <a href={children.discord} target="_blank">
+            {/* <a href={passdata.discord} target="_blank">
                 <FontAwesomeIcon
                     className="h-[30px] text-3xl text-grayscale-50 hover:text-sky-800 hover:scale-[1.1] transition-all duration-75"
                     icon={faDiscord}

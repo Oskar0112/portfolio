@@ -4,9 +4,9 @@ import { Nav } from "@components/Nav";
 
 export const Header = (props) => {
 
-    const { children } = props;
+    const { passdata } = props;
 
-    const navigation = children;
+    const navigation = passdata;
 
     return (
         <header
@@ -28,7 +28,7 @@ export const Header = (props) => {
                     </h1>
                 </div>
                 <SectionContainer className="flex items-center ml-auto">
-                    <Nav children={navigation} />
+                    <Nav passdata={navigation} />
                 </SectionContainer>
             </SectionContainer>
         </header>

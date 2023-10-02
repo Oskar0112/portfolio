@@ -5,9 +5,9 @@ import { useRouter } from "next/router";
 
 export const Nav = (props) => {
 
-    const {children} = props;
+    const { passdata } = props;
 
-    const navigation = children;
+    const navigation = passdata;
 
     const router = useRouter();
     const [isNavOpen, setIsNavOpen] = useState(false);

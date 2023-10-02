@@ -4,7 +4,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 
 export const HomeBanner = (props) => {
-    const { children } = props;
+    const { passdata } = props;
     return (
         <SectionContainer className="page-banner--container py-16">
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
@@ -18,7 +18,7 @@ export const HomeBanner = (props) => {
                             Full Stack Developer
                         </PageTitle>
                         <Content className="text-center" alignment="center">
-                            <p>{children}</p>
+                            <p>{ passdata }</p>
                         </Content>
                     </div>
                 </MotionBTTContainer>
