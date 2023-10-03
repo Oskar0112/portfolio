@@ -3,12 +3,12 @@ import { SectionContainer } from "@components/Section";
 import { HomeBanner } from "@components/Banner";
 import { MotionBTTContainer } from "@components/Motion";
 
-import { Experience } from "section/experience/Experience";
-import { Projects } from "section/projects/Projects";
-import { Education } from "section/education/Education";
-import { Skill } from "section/skills/Skill";
-import { Reference } from "section/reference/Reference";
-import { Contact} from "section/Contact/Contact";
+import { Experience } from "@sections/experience/Experience";
+import { Projects } from "@sections/projects/Projects";
+import { Education } from "@sections/education/Education";
+import { Skill } from "@sections/skills/Skill";
+import { Reference } from "@sections/reference/Reference";
+import { Contact} from "@sections/Contact/Contact";
 
 import {
     profile,

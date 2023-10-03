@@ -1,6 +1,6 @@
 import { Layout } from "@components/Layout";
 import SEO from "@components/SEO/SEO";
-import { Dashboard } from '@components/Dashboard';
+import { Dashboard } from '@sections/Dashboard/Dashboard';
 
 
 export default function Home() {

@@ -6,7 +6,7 @@
             "@styles/*": ["styles/*"],
             "@utils/*": ["utils/*"],
             "@public/*": ["public/*"],
-            "@AppComponents/*": ["components/App/*"]
+            "@sections/*": ["section/*"]
         }
     }
 }
