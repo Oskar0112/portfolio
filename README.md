@@ -21,7 +21,7 @@ Oskar Portfolio is a customizable NextJS and TailwindCSS landing page template t
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example).
+Deploy the example using [Netlify](https://netlify.com).
 
 If you want to deploy on Netlify, use the following build command under site settings:
 
@@ -39,7 +39,7 @@ Oskar Portfolio scores 100/100 in the Lighthouse performance audit.
 
 ## Demo
 
-Check out the [Demo](https://oskar.avenuelabs.co/), hosted on Vercel.
+Check out the [Demo](https://oskar-portfolio.netlify.app), hosted on Netlify.
 
 ## Commands
 
@@ -67,4 +67,4 @@ If you have any suggestions/feedback, you can contact the creator, Oskar Molande
 
 ---
 
-Made by [Oskar Molander - Avenue Labs](https://avenuelabs.co/)
+Made by [Oskar Molander]
