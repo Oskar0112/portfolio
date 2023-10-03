@@ -1,6 +1,7 @@
 import { SectionContainer } from "@components/Section";
 import Link from "next/link";
 import { SocialLinks } from "@components/SocialLink";
+import Image from 'next/image'
 
 export const Footer = (props) => {
 
@@ -17,7 +18,7 @@ export const Footer = (props) => {
                 <div className="wrap wrap-px flex justify-around items-center">
                     <div className="sm:w-[20%]">
                         <Link href="/">
-                            <img
+                            <Image
                                 src="/image/banner.png"
                                 alt="logo"
                                 className="h-10 w-auto"

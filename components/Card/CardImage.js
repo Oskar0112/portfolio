@@ -1,8 +1,9 @@
+import Image from 'next/image'
 
 export const CardImage = ({ src, className, imageClassName, alt }) => {
     return (
         <div className={`card--image ${className && className}`}>
-            <img
+            <Image
                 src={src}
                 width={600}
                 height={420}

@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faDiscord, faGithub, faLinkedin, faSkype } from '@fortawesome/free-brands-svg-icons';
 
 export const SocialLinks = (props) => {

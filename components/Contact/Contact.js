@@ -17,7 +17,7 @@ export const ContactForm = (props) => {
 
   useEffect(() => {
     emailjs.init(PublicKey);
-  }, []);
+  }, [PublicKey]);
 
   const notify = React.useCallback((type, message) => {
     toast({ type, message });

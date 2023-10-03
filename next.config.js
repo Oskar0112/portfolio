@@ -6,9 +6,7 @@ const fs = require("fs");
 
 const nextConfig = {
     reactStrictMode: true,
-    experimental: {
-        appDir: true
-    },
+    experimental: {},
     sassOptions: {
         includePaths: [path.join(__dirname, "styles")]
     },

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SectionContainer } from "@components/Section";
 import { Nav } from "@components/Nav";
+import Image from 'next/image'
 
 export const Header = (props) => {
 
@@ -17,7 +18,7 @@ export const Header = (props) => {
                 <div className="header-logo--container">
                     <h1 className="logo mb-0">
                         <Link href="/">
-                            <img
+                            <Image
                                 src="/image/banner.png"
                                 alt="logo"
                                 className="h-12 w-auto"
