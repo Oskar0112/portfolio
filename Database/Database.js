@@ -18,7 +18,7 @@ const navigation = [
 
 // HomeBanner
 
-const profile = 'Senior Full Stack Developer with over 8 years of professional experience in software development, emphasizing in React, Next and Node. ' +
+const profile = 'Full Stack Developer with over 8 years of professional experience in software development, emphasizing in React, Next and Node. ' +
 'Proficient in all aspects of the development process, from requirement gathering and design to deployment and maintenance. ' +
 'Skilled in designing and building scalable and maintainable applications using modern technologies and best practices. ' +
 'Passionate about working in a fast-paced, collaborative environment and staying up to date with the latest industry trends.';
