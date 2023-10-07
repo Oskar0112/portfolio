@@ -8,8 +8,6 @@ const SEO = ({ title, description, keywords }) => {
         : process.env.siteDescription;
     const metaKeywords = keywords ? keywords : process.env.siteKeywords;
     const siteURL = process.env.siteUrl;
-    const twitterHandle = process.env.twitterHandle;
-    const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`;
 
     return (
         <Head>
@@ -19,23 +17,12 @@ const SEO = ({ title, description, keywords }) => {
                 name="viewport"
                 content="width=device-width, initial-scale=1.0"
             />
+            <meta name="title" content={title} />
             <meta name="description" content={metaDescription} />
             <meta name="keywords" content={metaKeywords} />
-            {/* { Twitter } */}
-            <meta
-                name="twitte:card"
-                content="summary_large_image"
-                key="twcard"
-            />
-            <meta
-                name="twitter:creator"
-                content={twitterHandle}
-                key="twhandle"
-            />
 
             {/* {Open Graph} */}
             <meta property="og:url" content={siteURL} key="ogurl" />
-            <meta property="og:image" content={imagePreview} key="ogimage" />
             <meta property="og:site_name" content={siteURL} key="ogsitename" />
             <meta property="og:title" content={title} key="ogtitle" />
             <meta

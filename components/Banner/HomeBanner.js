@@ -18,7 +18,7 @@ export const HomeBanner = (props) => {
                             Full Stack Developer
                         </PageTitle>
                         <Content className="text-center" alignment="center">
-                            <p>{ passdata }</p>
+                            <p className=" leading-7">{ passdata }</p>
                         </Content>
                     </div>
                 </MotionBTTContainer>
