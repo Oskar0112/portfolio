@@ -73,10 +73,10 @@ const university1 = {
     mark: "/educations/campus_helsingborg.png"
 };
 const university2 = {
-    title: "Malaysia University of Science and Technology",
+    title: "M U S T",
     site: "https://must.edu.my/",
     degree: "Bachelor's degree in Software Engineer",
-    history: "January 2014 – July 2017",
+    history: "January 2014 – July 2017 | PJ, MALAYSIA",
     mark: "/educations/must.png"
 };
 
