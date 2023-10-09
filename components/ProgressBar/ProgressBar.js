@@ -12,7 +12,7 @@ export const ProgressBar = (props) => {
                 </div>
                 <div className="w-full">
                     <div className="flex flex-row mb-1 ml-2">
-                        <div className=" text-lg font-medium dark:text-white justify-center">{skill[0]}</div>
+                        <div className=" text-lg font-medium text-slate-900 justify-center">{skill[0]}</div>
                     </div>
                     <div className="rounded-full border border-blue-500 p-[2px]">
                         <div
