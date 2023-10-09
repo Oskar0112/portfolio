@@ -18,7 +18,7 @@ const navigation = [
 
 // HomeBanner
 
-const profile = 'Full Stack Developer with over 8 years of professional experience in software development, emphasizing in React, Next and Node. ' +
+const profile = 'Full Stack Developer with over 5 years of professional experience in software development, focusing on React, Next and Node. ' +
 'Proficient in all aspects of the development process, from requirement gathering and design to deployment and maintenance. ' +
 'Skilled in designing and building scalable and maintainable applications using modern technologies and best practices. ' +
 'Passionate about working in a fast-paced, collaborative environment and staying up to date with the latest industry trends.';
@@ -27,28 +27,28 @@ const profile = 'Full Stack Developer with over 8 years of professional experien
 // Experiences
 
 const MembitHistory = ["Developed efficient and maintainable software according to business objectives and needs of clients.",
-"Used AWS Elastic Beanstalk service for deploying and scaling web applications and services developed with Python.",
+"Used AWS Elastic Beanstalk service for deploying and scaling web applications and services developed with Next and Node.",
 "Professional Experience with widely used React, Vue.js, Next.js, Nuxt.js.",
-"Identifying and resolving problems discovered through consumer feedback and testing."
+"Enhanced the productivity of the Front-End Developer section by improving the work distribution and process."
 ];
-const QueensLabHistory = ["Assisted with software development for healthcare industry using Python and Selenium.",
+const QueensLabHistory = ["Designed and developed RestFul APIs for client applications using Django Rest Framework.",
 "Participated as a member of a team in implementing a new customer relationship management system using Django and MySQL.",
-"Assisted with database development and maintenance, including creating new schemas and modifying existing ones.",
+"Integrated database systems and utilized ORM for efficient data management.",
 "Assisted with debugging and resolution of complex issues in production systems."
 ];
 
 const MembitSite = {
-title: "Membit AB (Remote)",
+title: "Membit AB",
 site: "https://www.membit.se/",
-role: "Front-end Developer",
-history: "JUNE 2020 – APRIL 2023 | HELSINGBORG, SWEDEN",
+role: "Full-Stack Developer",
+history: "JUNE 2021 – APRIL 2023 | HELSINGBORG, SWEDEN",
 experience: MembitHistory
 };
 const QueensLabSite = {
 title: "QueensLab",
 site: "https://www.queenslab.co/",
 role: "Python Developer",
-history: "NOVEMBER 2016 – MARCH 2020 | GÖTEBORG, SWEDEN",
+history: "NOVEMBER 2019 – MARCH 2021 | GÖTEBORG, SWEDEN",
 experience: QueensLabHistory
 };
 
@@ -69,14 +69,14 @@ const university1 = {
     title: "Campus Helsingborg",
     site: "https://www.ch.lu.se/english/",
     degree: "Bachelor's degree in Computer Science",
-    history: "APRIL 2013 – JUNE 2016 | HELSINGBORG, SWEDEN",
+    history: "September 2017 – August 2019 | HELSINGBORG, SWEDEN",
     mark: "/educations/campus_helsingborg.png"
 };
 const university2 = {
-    title: "Pluralsight, (online course)",
-    site: "https://www.pluralsight.com/",
+    title: "Malaysia University of Science and Technology",
+    site: "https://must.edu.my/",
     degree: "Bachelor's degree in Software Engineer",
-    history: "NOVEMBER 2012 – JUNE 2016",
+    history: "January 2014 – July 2017",
     mark: "/educations/pluralsight.png"
 };
 
