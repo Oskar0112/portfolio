@@ -77,7 +77,7 @@ const university2 = {
     site: "https://must.edu.my/",
     degree: "Bachelor's degree in Software Engineer",
     history: "January 2014 – July 2017",
-    mark: "/educations/pluralsight.png"
+    mark: "/educations/must.png"
 };
 
 
