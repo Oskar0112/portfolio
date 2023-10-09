@@ -10,12 +10,12 @@ export const HistoryCard = (props) => {
 
     return (
         <div className="relative rounded-xl text-center p-5 hover:bg-slate-50">
-            <div className="absolute w-24 h-24 hidden xl:block">
+            <div className="absolute w-24 h-24 hidden xl:block rounded-full">
                 <Image
                  src={ passdata.mark } 
                  width={96}
                  height={96}
-                 className="shadow-md shadow-orange-50 hover:cursor-pointer"
+                 className="shadow-md shadow-orange-50 hover:cursor-pointer rounded-full"
                  alt="mark"
                  onClick={ () => visit(passdata.site) }
                 />
