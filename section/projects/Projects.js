@@ -12,7 +12,7 @@ export const Projects = (props) => {
     const imgArray = passdata;
 
     return (
-        <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-3xl mx-auto mt-24 md:grid-cols-2">
+        <CardGroup className="grid scroll-m-24 gap-8 grid-cols-1 max-w-3xl mx-auto mt-24 md:grid-cols-2 max-md:max-w-96">
             {
                 imgArray && imgArray.length > 0 &&
                 imgArray.map((item, index) => (

@@ -19,37 +19,37 @@ const navigation = [
 // HomeBanner
 
 const profile = 'Full Stack Developer with over 5 years of professional experience in software development, focusing on React, Next and Node. ' +
-'Proficient in all aspects of the development process, from requirement gathering and design to deployment and maintenance. ' +
-'Skilled in designing and building scalable and maintainable applications using modern technologies and best practices. ' +
-'Passionate about working in a fast-paced, collaborative environment and staying up to date with the latest industry trends.';
+    'Proficient in all aspects of the development process, from requirement gathering and design to deployment and maintenance. ' +
+    'Skilled in designing and building scalable and maintainable applications using modern technologies and best practices. ' +
+    'Passionate about working in a fast-paced, collaborative environment and staying up to date with the latest industry trends.';
 
 
 // Experiences
 
 const MembitHistory = ["Developed efficient and maintainable software according to business objectives and needs of clients.",
-"Used AWS Elastic Beanstalk service for deploying and scaling web applications and services developed with Next and Node.",
-"Professional Experience with widely used React, Vue.js, Next.js, Nuxt.js.",
-"Enhanced the productivity of the Front-End Developer section by improving the work distribution and process."
+    "Used AWS Elastic Beanstalk service for deploying and scaling web applications and services developed with Next and Node.",
+    "Professional Experience with widely used React, Vue.js, Next.js, Nuxt.js.",
+    "Enhanced the productivity of the Front-End Developer section by improving the work distribution and process."
 ];
 const QueensLabHistory = ["Designed and developed RestFul APIs for client applications using Django Rest Framework.",
-"Participated as a member of a team in implementing a new customer relationship management system using Django and MySQL.",
-"Integrated database systems and utilized ORM for efficient data management.",
-"Assisted with debugging and resolution of complex issues in production systems."
+    "Participated as a member of a team in implementing a new customer relationship management system using Django and MySQL.",
+    "Integrated database systems and utilized ORM for efficient data management.",
+    "Assisted with debugging and resolution of complex issues in production systems."
 ];
 
 const MembitSite = {
-title: "Membit AB",
-site: "https://www.membit.se/",
-role: "Full-Stack Developer",
-history: "JUNE 2021 – APRIL 2023 | HELSINGBORG, SWEDEN",
-experience: MembitHistory
+    title: "Membit AB",
+    site: "https://www.membit.se/",
+    role: "Full-Stack Developer",
+    history: "JUNE 2021 – APRIL 2023 | HELSINGBORG, SWEDEN",
+    experience: MembitHistory
 };
 const QueensLabSite = {
-title: "QueensLab",
-site: "https://www.queenslab.co/",
-role: "Python Developer",
-history: "NOVEMBER 2019 – MARCH 2021 | GÖTEBORG, SWEDEN",
-experience: QueensLabHistory
+    title: "QueensLab",
+    site: "https://www.queenslab.co/",
+    role: "Python Developer",
+    history: "NOVEMBER 2019 – MARCH 2021 | GÖTEBORG, SWEDEN",
+    experience: QueensLabHistory
 };
 
 
@@ -57,10 +57,10 @@ experience: QueensLabHistory
 
 const projects = [["/projects/React1.png", "/projects/React2.png", "http://realestate.com.au", "React"],
 ["/projects/React3.png", "/projects/React4.png", "http://hm.com", "React"],
-["/projects/Vue1.png", "/projects/Vue2.png", "http://podcasters.spotify.com", "Vue"],
-["/projects/Vue3.png", "/projects/Vue4.png", "http://padlet.com", "Vue"],
 ["/projects/Next1.png", "/projects/Next2.png", "http://connect.agoda.com", "Next"],
-["/projects/Django1.png", "/projects/Django2.png", "http://adipositaszentrum-limmattal.ch", "Django"]];
+["/projects/Django1.png", "/projects/Django2.png", "http://adipositaszentrum-limmattal.ch", "Django"],
+["/projects/Vue1.png", "/projects/Vue2.png", "http://podcasters.spotify.com", "Vue"],
+["/projects/Vue3.png", "/projects/Vue4.png", "http://padlet.com", "Vue"]];
 
 
 // Educations
@@ -69,27 +69,20 @@ const university1 = {
     title: "Campus Helsingborg",
     site: "https://www.ch.lu.se/english/",
     degree: "Bachelor's degree in Computer Science",
-    history: "September 2017 – August 2019 | HELSINGBORG, SWEDEN",
+    history: "September 2016 – October 2019 | HELSINGBORG, SWEDEN",
     mark: "/educations/campus_helsingborg.png"
-};
-const university2 = {
-    title: "M U S T",
-    site: "https://must.edu.my/",
-    degree: "Bachelor's degree in Software Engineer",
-    history: "January 2014 – July 2017 | PJ, MALAYSIA",
-    mark: "/educations/must.png"
 };
 
 
 // Skills
 
-const skills = [["React", 87], ["Solidity", 81],
-["Vue", 82], ["Ethereum", 84],
-["Next.js", 92], ["MongoDB", 89],
+const skills = [["React", 87], ["Node.js", 95],
+["Next.js", 92], ["Python", 86],
+["Vue", 82], ["Django", 87],
 ["Angular", 79], ["MySQL", 83],
-["Node.js", 95], ["PostgreSQL", 80],
-["Python", 86], ["AWS", 82],
-["Django", 87], ["Tailwind", 85]];
+["Tailwind", 85], ["PostgreSQL", 80],
+["Solidity", 81], ["MongoDB", 89],
+["Ethereum", 84], ["AWS", 82]];
 
 
 // References
@@ -136,8 +129,7 @@ const experiences = {
 }
 
 const educations = {
-    university1,
-    university2,
+    university1
 }
 
 const references = {
