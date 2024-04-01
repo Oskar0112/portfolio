@@ -41,7 +41,7 @@ const MembitSite = {
     title: "Membit AB",
     site: "https://www.membit.se/",
     role: "Full-Stack Developer",
-    history: "JUNE 2021 – APRIL 2023 | HELSINGBORG, SWEDEN",
+    history: "JUNE 2021 – DECEMBER 2023 | HELSINGBORG, SWEDEN",
     experience: MembitHistory
 };
 const QueensLabSite = {
