@@ -69,7 +69,7 @@ const university1 = {
     title: "Campus Helsingborg",
     site: "https://www.ch.lu.se/english/",
     degree: "Bachelor's degree in Computer Science",
-    history: "September 2016 – October 2019 | HELSINGBORG, SWEDEN",
+    history: "August 2016 – October 2019 | HELSINGBORG, SWEDEN",
     mark: "/educations/campus_helsingborg.png"
 };
 
